@@ -66,26 +66,26 @@ const Hero = () => {
           detectRetina: true,
         }}
       />
-      <div className="bg-clip-padding backdrop-filter backdrop-blur bg-slate-50 bg-opacity-10  p-8 rounded-3xl drop-shadow-md">
+      <div className="bg-clip-padding backdrop-filter backdrop-blur bg-slate-50 bg-opacity-10  p-8 rounded-3xl drop-shadow-md m-4">
         <div className="mb-8 text-center">
-          <h1 className="text-6xl font-black text-slate-100 tracking-tight uppercase">
+          <h1 className="md:text-6xl text-3xl font-black text-slate-100 tracking-tight uppercase">
             Birthday <br /> Invitation!
           </h1>
-          <h2 className="text-2xl font-medium text-slate-300 tracking-widest">
+          <h2 className="text-md md:text-2xl font-medium text-slate-300 tracking-widest">
             Let's see what all the fuss is about..
           </h2>
         </div>
         <div className="text-center">
-          <h3 className="text-3xl font-extrabold text-slate-50 uppercase pb-4">
+          <h3 className="text-lg md:text-3xl font-extrabold text-slate-50 uppercase pb-4">
             Some Information
           </h3>
-          <div className="flex justify-around">
+          <div className="flex flex-col md:flex-row justify-around">
             <div>
               <h4 className="text-xl font-bold text-slate-100">What?</h4>
               <p className="text-xl font-light text-slate-100 pb-4">
                 Karting woohoo! <br /> (2 sessions, €38/person) <br />
                 Drinks on me! <br />
-                <span className="text-sm opacity-10">
+                <span className="text-md opacity-10">
                   Unless your alcoholic..
                 </span>
               </p>
@@ -103,7 +103,7 @@ const Hero = () => {
               <p className="text-xl font-light text-slate-100 pb-4">
                 Bring your +1! <br /> Tell me if you want to <br /> join dinner
                 afterwards <br />
-                <span className="text-sm opacity-10">
+                <span className="text-md opacity-10">
                   I had to much fun making this
                 </span>
               </p>
