@@ -79,20 +79,36 @@ const Hero = () => {
           <h3 className="text-3xl font-extrabold text-slate-50 uppercase pb-4">
             Some Information
           </h3>
-          <h4 className="text-xl font-bold text-slate-100">What?</h4>
-          <p className="text-xl font-light text-slate-100 pb-4">
-            Karting woohoo! <br /> (2 sessions, €38/person) <br />
-            Drinks on me! <br />
-            <span className="text-sm opacity-10">Unless your alcoholic..</span>
-          </p>
-          <h4 className="text-xl font-bold text-slate-100">Where?</h4>
-          <p className="text-xl font-light text-slate-100 pb-4">
-            Budasteenweg 2 <br /> 1830 Machelen
-          </p>
-          <h4 className="text-xl font-bold text-slate-100">When?</h4>
-          <p className="text-xl font-light text-slate-100 pb-4">
-            You really don't know?.. <br /> Time is 16:20.
-          </p>
+          <div className="flex justify-around">
+            <div>
+              <h4 className="text-xl font-bold text-slate-100">What?</h4>
+              <p className="text-xl font-light text-slate-100 pb-4">
+                Karting woohoo! <br /> (2 sessions, €38/person) <br />
+                Drinks on me! <br />
+                <span className="text-sm opacity-10">
+                  Unless your alcoholic..
+                </span>
+              </p>
+              <h4 className="text-xl font-bold text-slate-100">Where?</h4>
+              <p className="text-xl font-light text-slate-100 pb-4">
+                Budasteenweg 2 <br /> 1830 Machelen
+              </p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold text-slate-100">When?</h4>
+              <p className="text-xl font-light text-slate-100 pb-4">
+                You really don't know?.. <br /> Time is 16:20. <br />
+              </p>
+              <h4 className="text-xl font-bold text-slate-100">Extra</h4>
+              <p className="text-xl font-light text-slate-100 pb-4">
+                Bring your +1! <br /> Tell me if you want to <br /> join dinner
+                afterwards <br />
+                <span className="text-sm opacity-10">
+                  I had to much fun making this
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
