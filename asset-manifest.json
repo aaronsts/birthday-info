@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/birthday-info/static/css/main.54710517.css",
+    "main.js": "/birthday-info/static/js/main.793957cc.js",
+    "index.html": "/birthday-info/index.html",
+    "main.54710517.css.map": "/birthday-info/static/css/main.54710517.css.map",
+    "main.793957cc.js.map": "/birthday-info/static/js/main.793957cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54710517.css",
+    "static/js/main.793957cc.js"
+  ]
+}
